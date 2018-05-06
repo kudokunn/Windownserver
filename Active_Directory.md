@@ -27,7 +27,7 @@ Là các loại đối tượng mà bạn có thể tạo ra trong Active Direct
 
 Là tập các giá trị (value) phù hợp với thuộc tính (attribute) và được kết hợp với một đối tượng cụ thể.
 
-Hình anh: 1.PNG
+ ![](image/1.PNG)
 
 #### Organizational Units (OU): 
 
@@ -40,7 +40,7 @@ Hình anh: 1.PNG
 2. Kiểm soát và khóa bớt một số chức năng trên các máy trạm của người dùng trong OU thông qua việc sử dụng các đối tượng chính sách nhóm
 (GPO) Group Policy Object
 
-Hình 2.PNG
+ ![](image/2.PNG)
 
 #### Domain:
 
@@ -56,7 +56,7 @@ Hình 2.PNG
  
 Domain Tree là cấu trúc bao gồm nhiều domain được sắp xếp có cấp bậc theo cấu trúc hình cây. Domain tạo ra đầu tiên được gọi là domain root và nằm gốc của cây thư mục. Tất cả các domain tạo ra sau sẽ nằm bên dưới domain root và được gọi là domain con (child domain). Tên của các domain con phải khác biệt nhau. Domain Tree bao gồm ít nhất 1 Root Domain và 1 Child Doamin 
 
-hình 3.PNH
+ ![](image/3.PNG)
 
 #### Forest 
 
@@ -75,13 +75,14 @@ nhau
 động của forest là hoạt động của toàn bộ hệ thống tổ chức doanh
 nghiệp.
 
-Hình 4 PNG
+ ![](image/4.PNG)
+
 
 #### Site: 
 
 Một site bao gồm một hay nhiều mạng con liên kết với nhau. Có thể cấu hình việc truy xuất và tạo bản sao cho Active Directory hiệu quả nhất và lập ra một lịch cập nhật để không ảnh hưởng đến thông lượng của mạng
 
-Hình 5 PNG
+ ![](image/5.PNG)
 
 #### Domain controllers
 
