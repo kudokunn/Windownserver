@@ -85,3 +85,25 @@ Hình 5 PNG
 
 #### Domain controllers
 
+* Domain Controller là một máy tính hay server cài đặt Windows Server sẽ được cài đặt để lên DC và lưu trữ bản sao cơ sở dữ liệu tên miền. 
+
+* Một domain có thể có một hay nhiều domain controller, mỗi domain controller đều có bản sao dữ liệu của Domain Directory. 
+
+* Các máy trạm phải join vào domain goi là domain client
+
+* User tạo ra bởi hệ thống domain trên DC gọi là Domain User
+
+=> Hệ thống domain là hệ thống máy tính client join vào domain do DC quản lý
+
+* Điều kiện để lên DC 1. HĐH winserver 2. Card mạng 3. Hệ thống có DNS server
+
+* Domain Controller chịu trách nhiệm chứng thực cho users và chịu trách nhiệm đảm bảo các chính sách bảo mật được thực thi. Các chức năng chính của domain controller:
+
+  - Mỗi domain controller lưu trữ các bản sao thông tin của Active Directory cho chính domain đó, chịu trách nhiệm quản lí thông tin và
+tiến hành đồng bộ dữ liệu với các domain controller khác trong cùng một domain.
+
+  -  Domain Controller trong một Domain có khả năng tự động đồng bộ dữ liệu với các domain controller khác trong cùng một domain. Khi bạn thực hiện một tác vụ đối với thông tin lưu trữ trên domain controller, thì thông tin này sẽ tự động được đồng bộ hóa đến các domain controller khác. Tuy nhiên để đảm bảo sự ổn định cho hệ thống mạng, chúng ta cần phải có một chính sách hợp lí cho các domain trong việc
+đồng bộ hóa thông tin dữ liệu với một thời điểm phù hợp.
+
+- ..........
+
