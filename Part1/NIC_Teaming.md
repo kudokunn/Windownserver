@@ -1,3 +1,5 @@
+Tham khảo: https://itforvn.com/tu-hoc-mcse-2016-lab-9-cau-hinh-nic-teaming-tren-windows-server-2016.html/
+
 ### Lý thuyết
 
 1. Khái niệm: 
