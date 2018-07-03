@@ -109,7 +109,9 @@ tiến hành đồng bộ dữ liệu với các domain controller khác trong c
 - ..........
 
 ### 3: Triển khai
+
 * Note: Khi cài đặt ADDS có mấy loại như sau
+
 1. Add a domain controller to an existing domain: Thêm một domain vào domain đã tồn tại làm Addition Domain Controller (hai con này sẽ đồng bộ với nhau dữ liệu) với mục đích
 - Khi hệ thống quá nhiều user cần xác thực gây quá tải nên cần một cái Domain Controller khác để LoadBalancing cho con Primary Controller Domain. Trên 1 nửa Client công ty sẽ đặt Prefer DNS là DC chính, Alternation DNS làm DC phụ, một nửa kia sẽ đặt ngược lại vì DNS chính sẽ được dùng để xác thực trước
 - Khi Công ty có trụ sở chính và nhiều chi nhánh thì các chi nhánh cần một con Additional DC để xác thực tại đó luôn, không phải về Primary xác thực
@@ -117,4 +119,10 @@ tiến hành đồng bộ dữ liệu với các domain controller khác trong c
 
 2. Tạo Child Doamin với mục đích công ty nhiều nhân viên và phòng ban thì tạo các child domain cho dễ phân biệt
 
-3. Tạo New forest: tạo hẳn một doamin với và tách biệt với nó
+3. Tạo New forest: tạo hẳn một doamin với và tách biệt với cái cũ
+
+* Trên Client thì:
+
+- Trên Client sẽ đặt Prefer DNS là IP của DC mình muốn client join vào 
+
+- Khi đã join được vào domain, muốn đăng remote vào client thì cần thêm client đó vào các user được phép remote bằng cách client sẽ có thể truy cập được database user của DC
