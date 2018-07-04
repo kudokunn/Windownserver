@@ -21,3 +21,6 @@ B4: Đặt trước IP cho một client: Mở DHCP => Reservation => New Reserva
   
   Tham khảo: ....
   
+### 3. Backup và Restore database DHCP
+
+Chỉ chọn Backup database và Restore DHCP.
