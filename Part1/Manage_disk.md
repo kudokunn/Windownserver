@@ -1,14 +1,14 @@
-### Quản lý ổ đĩa trên Winserver.
+# Quản lý ổ đĩa trên Winserver.
 
-#### Khi có nhiều ổ đĩa trên server Window thì trước hết cần "kích hoạt online các ổ đĩa lên" và "khởi động Initialize Disk" lên
+# Khi có nhiều ổ đĩa trên server Window thì trước hết cần "kích hoạt online các ổ đĩa lên" và "khởi động Initialize Disk" lên
 
 ![](/image/1.1.png)
 
 ![](/image/2.2.png)
 
-- CẤU HÌNH Ổ ĐĨA TRÊN WINDOW có hai loại: Basic Disk và Dynamic Disk. 
+### CẤU HÌNH Ổ ĐĨA TRÊN WINDOW có hai loại: Basic Disk và Dynamic Disk. 
 
-- Tính chất Basic Disk: 
+### Tính chất Basic Disk: 
 
 + Hỗ trợ mỗi loại: Simple Volume
 
@@ -16,20 +16,20 @@
 
 + Có hai kiểu phân vùng cho kiểu Basic Disk: MRB và GPT.
 
-+ MRB: 
+ ++ MRB: 
 
               Có thể phân chia thành 4 phân vùng: 3 primary và 1 phân vùng mở rộng (extend partition). Trong phân vùng mở rộng có thể phân               chia nhiều phân vùng logic. 
               
               Hỗ trợ ổ cứng chỉ tới 2TB
 
-+ GPT: 
+ ++ GPT: 
 
               Hỗ trợ lên tới 128 phân vùng => KHông cần tạo các phần vùng mở rộng
               Hỗ trợ ổ cứng hơn 2TB
               
 ![](/image/6.6.png)             
 
-- Tính chất Dynamic Disk: 
+### Tính chất Dynamic Disk: 
 
             Cho phép ghép nhiều ổ đĩa vật lý tạo thành ổ Logic (Volume: ổ cứng logic khi đã tạo từ phân vùng ổ đĩa vật lý # Partition:                  phân vùng chia trên ổ đĩa vật lý)
 
@@ -40,7 +40,7 @@
            
 ![](/image/4.4.png)
            
-- Các loại volume Dynamic Disk: 
+### Các loại volume Dynamic Disk: 
   
 1. Simple Volume: dữ liệu trên simple volume chỉ được lưu trữ trên 1 ổ cứng vật lý
 
