@@ -5,7 +5,7 @@
 
 Note: có thể tạo VPN từ các thiết bị mạng Router nhưng khi đã vào được mạng công ty muốn phân quyền User này chỉ được vào các thư mục của phòng ban họ thì phải cấu hình như thế này.
 
-- Mô hình có 4 server: 
+### Mô hình có 4 server: 
 
 1. Server BKAP-DC12-01: - Chạy AD tạo OU, Group, tài khoản người dùng và cho phép truy cập từ xa
                         - 1 Folder chia sẻ tên Data
@@ -22,7 +22,7 @@ Note: có thể tạo VPN từ các thiết bị mạng Router nhưng khi đã v
 
 4. Máy BKAP-WRK08-01: Máy test VPN từ xa
 
-- Nguyên lý hoạt động: 
+### Nguyên lý hoạt động: 
 
 1. Server BKAP-DC12-01 tạo một User và cho phép được đăng nhập từ xa (Allow Access) trong phần Properties
 
