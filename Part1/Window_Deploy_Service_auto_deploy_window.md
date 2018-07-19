@@ -2,7 +2,7 @@ WINDOW DEPLOY SERVICE: Dịch vụ triển khai hệ điều hành window. Đư�
 
 Mô hình: 
 
-
+![](image/WDS.PNG)
 
 Thực hiện: https://www.youtube.com/watch?v=JtzKEGJPZ4I&list=UURcMHAr_csIFXKsEW_5cuKw&index=44
 
