@@ -6,6 +6,18 @@
 
 - Thực hiện: https://www.youtube.com/watch?v=TshHR0Zk1Vw
 
+Chú ý:
+
+Đây là quyền chỉ cho user administrator, kiennd truy cập thư mục share này qua mạng Lan. (Ví dụ thư mục share trên Server thì Client đăng nhập user kiennd mới truy cập được thư mục share này) Những user khác không được truy cập
+
+![](/image/share1.png)
+
+
+
+Đây là quyền của các User hiện có (trên chính Server share thư mục) để được quyền truy cập thư mục trên chính server đó => Với user kiennd phải có "2 quyền". Quyền vào được thư mục share trên máy client và quyền được truy cập thư mục này trên Server share thư mục (Bản chất để User kiennd vào được thư mục share trên client thì phải có quyền Sharing thưc mục trên Server và quyền được truy cập thư mục đó trên Server )
+
+![](/image/share2.png)
+
 ### Tạo Shadow Copies: Là giải pháp backup dữ liệu của cả một volume tại một điểm thời gian
 
 - Thực hiện: https://www.youtube.com/watch?v=P0x6G4RDRyk
